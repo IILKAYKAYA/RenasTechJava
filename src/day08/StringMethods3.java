@@ -11,7 +11,7 @@ public class StringMethods3 {
         String sentence="Hello world, you are great world. lo lo";
         System.out.println(sentence.charAt(2)); // l
         System.out.println(sentence.charAt(3)); // l
-        System.out.println(sentence.indexOf("l"));// check and returns first matching index first l 2
+        System.out.println(sentence.indexOf("l"));// check and returns first matching index first l --> 2
         System.out.println(sentence.indexOf("lo")); //second l  3
         System.out.println(sentence.indexOf("lo ")); //second l 3
         System.out.println(sentence.indexOf( " lo") ); //index of last space before lo

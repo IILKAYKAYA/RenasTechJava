@@ -39,7 +39,7 @@ public class StringMethods {
         ////length()             Returns the length of a specified string                         int
 
         String word1="Parvina";
-        //0123456
+                    //0123456
         //lentgh will be 1 number plus of last index number
         System.out.println("length of word1 is : "+word1.length()); //7
 
