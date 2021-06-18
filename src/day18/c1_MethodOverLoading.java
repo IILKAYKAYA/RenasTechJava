@@ -17,6 +17,12 @@ public class c1_MethodOverLoading {
         method(8);
 
     }
+
+    //method overloading is creating everything same for method
+    //only parameters type will be different
+    //ex : same // Access-modifer       specifier        return-type        methodName
+    // (parameter) needs to be diffrerent
+
     public static void method(int a){
         System.out.println(a+ " is int ");
 
@@ -28,6 +34,7 @@ public class c1_MethodOverLoading {
     }
 
     public static void method(byte a){
+
         System.out.println(a+" is byte");
     }
 
