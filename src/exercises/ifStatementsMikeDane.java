@@ -17,8 +17,10 @@ public class ifStatementsMikeDane {
             System.out.println("you are not male but tall");
         } else {
             System.out.println("you are either not male, or not tall");
-
-
         }
+
+
+
+
     }
 }

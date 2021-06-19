@@ -9,7 +9,6 @@ public class assign1 {
     public static void main(String[] args) {
 
 
-
     //1. write a program that ask user to enter sentence.
     //Then print out the first and last characters
 

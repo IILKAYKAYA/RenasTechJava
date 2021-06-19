@@ -95,9 +95,11 @@ public class StringMethods2 {
         //this will print starting given index until the ending index (excluded ending index)
         //second substring(beginiing index) : this will start printing from given index to end of the sentence
         String  sentence="Hello World Java";
-        //012345678910
+                        //012345678910
+
         //i want to print World Java
         System.out.println(sentence.substring(6)); // World Java
+
         //print World
         System.out.println(sentence.substring(6,10));//Worl
         System.out.println(sentence.substring(6,11));//World

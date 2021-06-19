@@ -5,9 +5,11 @@ public class c1_forLoop {
     public static void main(String[] args) {
         //we have for loop in java to be able to do contiouns actions
         //you need specify your starting point
-        //second where to end whihc is ending point
+        //second where to end which is ending point
         //att the end itteration
         //loop will work until you reached ending point
+
+
         for (int i = 0 ; i<=10 ; i++){ //i = 0 ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10
             //11 times hello
             System.out.println("Hello World");
