@@ -5,36 +5,37 @@ public class c2_remaningOperators {
     public static void main(String [] args) {
         //
         int x= 100;
-        System.out.println(x);
+        System.out.println(x); //x=100
         x += 50;  // x = x+50
 
-        System.out.println(x);
+        System.out.println(x); //x=150
         int y=100;
-        y = y + 50 ;
+        y = y + 50 ; // y=100+50
 
-       System.out.println(y);
+       System.out.println(y); //y=150
         x = -y;  // it says assign -y to x
         // -y = -150
         //x= -150
 
-        System.out.println(x);
+        System.out.println(x); //x=-150
         //-150
         // -150 -50  == -200
         x -= 50;
 
-        System.out.println(x);
+        System.out.println(x); // x=x-50  x= -150-50 = -200
         // -= or += means add or remove up to given number
 
         System.out.println("*************************");
         int z=10;
-        System.out.println(z);
+        System.out.println(z); //10
         // x = -200
         z = x + 50 - x;  // z = (-200) + 50 - (-200);
+
         //z = -150 - (-200)
         //z= -150 +200
         //z=50 ;
 
-        System.out.println(z);
+        System.out.println(z); //50
         z -= z+z-z+50;    //z = z - (z+z-z+50)
         //z= 50
         //50- (z+z-z+50) == 50 -(50+50-50+50)==

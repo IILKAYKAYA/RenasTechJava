@@ -5,6 +5,28 @@ public class c4_minMaxNumbers {
         // x y z
         // min number
         // create a logic that will going to print minumum number between 3 numbers
+
+        int a=5;
+        int b=10;
+        int c=20;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         int x= 245;
         int y = -500;
         int z= 0;

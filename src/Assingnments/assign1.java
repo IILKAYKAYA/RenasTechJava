@@ -86,10 +86,22 @@ public class assign1 {
 //(Array) Find Maximum
 //Write a method that can find the maximum number from an int Array
 
+        int [] num1={5,6,7,8,9};
+        int [] num2={9,10,11,12,13};
+
+        int maxnum=0;
+
+      //  int [] numbers={num1.(num2)};
+
 //(Array) Find Minimum
 //Write a method that can find the maximum number from an int Array
 
 //(Array) Concat two arrays
 //Write a return method that can concate two arrays
+
+        String [] str={"a", "b","c","d","e"};
+        String [] str2={"d","e","f","g","h"};
+
+
 }
 }

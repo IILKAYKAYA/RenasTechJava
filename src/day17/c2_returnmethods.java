@@ -13,6 +13,7 @@ public class c2_returnmethods {
     //return type : void , any datatype(int,string,char , int [] .......)
     //some method has paramertes some dont have parameter
 
+
 // return method (without parameters)
     // return method (with parameters)
 
@@ -54,6 +55,8 @@ public class c2_returnmethods {
 //        int result3=minNum(8,9);  this method return type is void not int
         //you cant store in int
 
+
+
         addition(10,65);
         int result3=addition2(5,5);
         System.out.println(result3);
@@ -64,11 +67,14 @@ public class c2_returnmethods {
 
     }
 
+
+
     public static int division(int i1 , int i2){
         //return type is int
         //at the end you need to retun int from this method
         System.out.println("hello this is division method");
         System.out.println("division of : "+ i1 +"," +i2);
+
 
         //return "nhfgbnv";
         // you always will need to have return statement
@@ -91,6 +97,5 @@ public class c2_returnmethods {
     public static int addition3(byte number1 , byte number2){
 
         return number1+number2;
-
     }
 }

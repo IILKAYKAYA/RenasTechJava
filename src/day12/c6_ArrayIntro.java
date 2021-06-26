@@ -27,7 +27,7 @@ public class c6_ArrayIntro {
 
         int number2=numbers[1]; // this will sttore 50 inside number 2
 
-        System.out.println(number2);
+        System.out.println(number2); //50
 
         System.out.println( numbers[4] ); // ArrayIndexOutOfBoundsException: error
 

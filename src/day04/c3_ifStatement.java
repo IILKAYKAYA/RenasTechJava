@@ -25,6 +25,16 @@ public class c3_ifStatement {
         if (2!=2) {// false condtion then java wont check your inside of your if statement
             System.out.println(5);
         }
+
+        boolean bool5= 2>=1;
+        boolean bool6=false;
+
+        if (bool5){
+            System.out.println("2> 3");
+        }if(bool6){
+            System.out.println("false");
+        }
+
     }
 
 }

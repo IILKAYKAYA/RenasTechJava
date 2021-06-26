@@ -13,12 +13,7 @@ public class JavaBasicExercise2 {
         //Perimeter is = 47.12388980384689
         //Area is = 176.71458676442586
 
-
-
-
-
         //12. Write a Java program that takes three numbers as input to calculate and print the average of the numbers. Go to the editor
-
 
         Scanner scan =new Scanner(System.in);
 

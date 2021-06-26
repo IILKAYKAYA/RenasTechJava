@@ -29,7 +29,7 @@ public class StringMethods3 {
         //    //trim()               Removes whitespace from both ends of a string                        String
         String str=" Aydin      Baysoz       123      ";
         System.out.println(str.trim()); //remove extra spaces from begignning and from end
-
+        System.out.println("888888888888888888888888888888888888");
         //please create a java logic which will count spaces inside of sentence
         System.out.println(str.replace(" ","")); //replace will remove all spaces
         System.out.println(str.replaceFirst(" ","")); //will only removed first spaces in the string

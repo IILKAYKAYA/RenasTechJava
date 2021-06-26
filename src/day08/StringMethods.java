@@ -56,7 +56,7 @@ trim()               Removes whitespace from both ends of a string              
 
 
 
-        //concat()           Appends a string to the end of another string                        String
+        //concat()    Appends a string to the end of another string    String
         String firstName="Ramazan";
         String lastName="Ozer";
         System.out.println(firstName+lastName);
