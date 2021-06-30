@@ -1,7 +1,7 @@
 package day21;
 
 
-import star.star;
+//import liner.line;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -43,7 +43,7 @@ public class collectionsExtra {
         System.out.println(maxnum);
         System.out.println(minnum);
 
-        star.stars();
+      //  line.stars();
 
         ArrayList<Integer> numbers=new ArrayList<>();
         numbers.addAll(Arrays.asList(1,2,4,5,6,7,100,-25,-55,-75,189));

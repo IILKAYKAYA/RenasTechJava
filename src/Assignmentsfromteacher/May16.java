@@ -1,4 +1,4 @@
-package sevginAssignments;
+package Assignmentsfromteacher;
 
 public class May16 {
 

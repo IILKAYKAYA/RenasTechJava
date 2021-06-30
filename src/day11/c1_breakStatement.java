@@ -8,7 +8,6 @@ public class c1_breakStatement {
             // 1 2 3 ... 10 ---> ten time
              System.out.println("Java");
 
-
             // 4 only one time
             if(i==4){
                 System.out.println("Java 2"); // 1 times

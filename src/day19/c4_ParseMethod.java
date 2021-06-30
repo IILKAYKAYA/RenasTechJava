@@ -1,7 +1,5 @@
 package day19;
 
-import star.star;
-
 public class c4_ParseMethod {
     public static void main(String[] args) {
 
@@ -25,7 +23,7 @@ public class c4_ParseMethod {
         int num=Integer.parseInt(name);
         System.out.println(num+500);
 
-        star.stars();
+
         String str="535";
         //int i1=str; error
 

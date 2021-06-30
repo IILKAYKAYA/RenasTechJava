@@ -44,5 +44,24 @@ public class removeCharacters {
             word = word.substring(0,lastIndex); // last index wont be included // word = k
         }
         System.out.println("Modified word : " + word);
+
+
+
+        //Task : Create a java program that will check given string and
+        //    if string starts or ends with 'a' or 'A' remove it from string.
+        //    if it is not leave it as it is :
+        //    examples :
+        //    if string is Hello  output should be Hello
+        //    if string is JavA  output should be jav
+        //    if string is Ajavaa  output should be jav
+
+
+
+
+
+
     }
+
+
+
 }

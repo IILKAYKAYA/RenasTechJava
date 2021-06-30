@@ -75,7 +75,7 @@ public class ArrayListAssingment22jun {
 
         //use indexOf method to print last index of arraylists ********
 
-       System.out.println(dbl.lastIndexOf(6)); // on the console -1
+       System.out.println(dbl.lastIndexOf(1)); // on the console -1
 
 
         //use contains method to check if your arraylist are contain the data that you passed
@@ -116,6 +116,8 @@ public class ArrayListAssingment22jun {
             // Str.get(1)=Helen
             // Str.get(2)=Maya
          }
+
+
 
 
         System.out.println("**************************************");

@@ -50,6 +50,8 @@ public class c2_forLoop2 {
         //5 Repeat steps 2 - 4
         //
         //This is the reason why, there is no difference between i++ and ++i in the for loop which has been used.
+
+
         //how you can reverse a string
         //input :hello
         //output :olleh
@@ -57,6 +59,17 @@ public class c2_forLoop2 {
         //01234
         String reverse1=""+str.charAt(4)+str.charAt(3)+str.charAt(2)+str.charAt(1)+str.charAt(0);
         System.out.println(reverse1);
-        //
+
+
+
+        String name="ilkayandhuseyin";
+        String reversename="";
+
+        for(int  i=name.length()-1; i>=0; i--) {
+            reversename += name.charAt(i);
+
+        }
+        System.out.println(reversename);
+
     }
 }

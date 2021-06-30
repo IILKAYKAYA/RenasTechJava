@@ -1,0 +1,17 @@
+Here are some questions you asked and answers:
+— Why we use void?
+Answer: In Java, void keyword is used with the method declaration to specify that
+ this particular method is not going to return any value after completing its execution.
+ We cant assign the return type of a void method to any variable because void is not a data type.
+— What is the purpose of static methods?
+Answer: A static method manipulates the static variables in a class.
+It belongs to the class instead of the class objects and can be invoked without using a class object.
+— Can we call static methods from another class?
+Answer: Yes. We don’t need to create an object to call a static method since it is belong to class.
+If we want to call a static method from another class/package we can basically write the className and .staticmethod().
+Ex:  className.staticMethod();
+In one class, You can put the class name which you want to call a method from there,
+then you put the method name. This will call any static method from any class.
+— What is the purpose of return?
+Answer: A return statement is used to exit from a method, with or without a value.
+ For methods that define a return type, the return statement must be immediately followed by a return value.

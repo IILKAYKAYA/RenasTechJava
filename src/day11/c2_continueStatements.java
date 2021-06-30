@@ -54,6 +54,14 @@ public class c2_continueStatements {
             System.out.print(a+" ");
 
         }
+        System.out.println("    ");
+
+        for (int k=1; k<=100; k++){
+            if(k%2==0 && k%3==00){
+                continue;
+            }
+            System.out.print(k+",");
+        }
 
     }
 }

@@ -1,10 +1,7 @@
 package day19;
 
 
-import star.star;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class c6_List {
@@ -89,7 +86,7 @@ public class c6_List {
                     System.out.println("names are " + nameList.get(y));
 
             }
-            star.stars();
+
 
             for (int i = 0; i <= nameList.size() - 1; i++) { //0 1 2 3 4 5
 

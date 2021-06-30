@@ -1,8 +1,9 @@
 package day22;
 
+import Liner.line;
 import MyLibrary.Library;
 import day21.Shoe;
-import star.star;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,6 +31,7 @@ public class AnimalObject {
         System.out.println(animal1.color);//null
 
         Library.stars();
+        line.line();
         animal1.setAnimalInfo("dog" , 5.5 , "black" , "dog1");
         System.out.println(animal1.name);
         System.out.println(animal1.age);
@@ -89,7 +91,7 @@ public class AnimalObject {
             each.eating(food3);
         }
 
-        star.stars();
+
 
 
     }

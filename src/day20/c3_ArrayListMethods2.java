@@ -67,6 +67,7 @@ public class c3_ArrayListMethods2 {
         System.out.println("list = "+ list);
 
         //below method will ask for list and will sorted.
+
         Collections.sort(list);  // ascending order
 
         System.out.println("sorted list = " +list2); // sorted list2 = [A, B]
@@ -92,13 +93,14 @@ public class c3_ArrayListMethods2 {
         System.out.println(numlist2); //[10, 20, 25, 4]
 
         Boolean bool1=numlist1.equals((numlist2));
-
         System.out.println(bool1); //false
 
-        //get method
-        Collections.sort(numlist2); // [4, 10, 20, 25] // sort is make a smaller to bigger
+        System.out.println((numlist1.equals(numlist2))); //false
 
-        System.out.println(numlist2);
+        //get method
+        Collections.sort(numlist2);
+
+        System.out.println(numlist2); // [4, 10, 20, 25] // sort is make a smaller to bigger
 
         for (int i=0; i< numlist2.size(); i++){
             System.out.println("numberlist2.get("+i+")="+numlist2.get(i));
@@ -112,6 +114,7 @@ public class c3_ArrayListMethods2 {
 
         boolean bool3=numlist2.isEmpty();
         System.out.println("bool3 = " + bool3);
+
 
         numlist2.clear(); // that will remove all data fromlist
 

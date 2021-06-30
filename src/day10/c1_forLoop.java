@@ -37,5 +37,11 @@ public class c1_forLoop {
             //Stage 0 number* number 0
             //stage 1                1
         }
+
+        for(int i=0; i<=100; i+=2){
+            System.out.print(i + ",");
+
+
+        }
     }
 }
